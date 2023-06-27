@@ -1,7 +1,3 @@
-
-## [Slik lager du et kursrepositorie](readme_no.html){:target="blank"} (Slettes)
-
-
 ## Kursplan  
 
 Forelesnings- og seminarplanene inneholder informasjon om tidspunkt, tema, faglærer samt ressurser/oppgaver til hvert tema.  
@@ -22,8 +18,8 @@ Kurset består av ulike interessante tema
 
 
 ## Faglærerinfo  
-- [Derek J. Clark](https://uit.no/ansatte/derek.clark){:target="blank"} (fagansvarlig)
-- [Espen Sirnes](https://uit.no/ansatte/person?p_document_id=41418){:target="blank"}
+- [Øystein Myrland](https://uit.no/ansatte/oystein.myrland){:target="blank"} (fagansvarlig)
+- [Dejene Gizaw Kidane](https://uit.no/ansatte/dejene.g.kidane){:target="blank"}
 
 
 
