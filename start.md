@@ -1,52 +1,48 @@
 
 
-## Kursplan  
+## Course Plan
 
-Forelesnings- og seminarplanene inneholder informasjon om tidspunkt, tema, faglærer samt ressurser/oppgaver til hvert tema.  
-Innleveringsplanen gir oppgaver, frister og ressurser i forbindelse med obligatoriske innleveringer.  
+The lecture and seminar plan contain information about the timing, topics, course instructor, as well as resources/tasks for each topic.  
+The submission plan provides tasks, deadlines, and resources related to compulsory assignments.  
 
-- [Forelesningsplan](forelesningsplan.html){:target="blank"}
-- [Seminarplan](seminarplan.html){:target="blank"}
-- [Innleveringsplan](innleveringer.html){:target="blank"}   
+- [Lecture and Seminar Plan](forelesningsplan.html){:target="blank"}
+- [Submission Plan](innleveringer.html){:target="blank"}   
 
-
-[Timeplan](https://timeplan.uit.no/){:target="blank"} på timeplan.uit.no
+[Timetable](https://timeplan.uit.no/emne_timeplan.php?sem=23h&module[]=SOK-3020-1#week-26){:target="blank"} on timeplan.uit.no
 
 
-## Kursbeskrivelse 
+## Course Description 
+
+The course consists of various interesting topics  
 
 
-Kurset består av ulike interessante tema  
+## Instructor Information 
 
-
-## Faglærerinfo  
-- [Øystein Myrland](https://uit.no/ansatte/oystein.myrland){:target="blank"} (fagansvarlig)
+- [Øystein Myrland](https://uit.no/ansatte/oystein.myrland){:target="blank"} (course responsible)
 - [Dejene Gizaw Kidane](https://uit.no/ansatte/dejene.g.kidane){:target="blank"}
 
 
+## Administrative Questions
 
-## Administrative spørsmål
-
-For henvendelser av administrative art send e-post til: <hhcampus@hjelp.uit.no>. Der får du hjelp av Handelshøgskolens administrasjon.
+For administrative inquiries, please send an email to: <hhcampus@hjelp.uit.no>. There, you will receive help from the School of Business Administration.
 
 
-## Pensum  
+## Curriculum 
 
-### Pensum til forelesningene
+### Curriculum for the lectures
 
 [Leganto](https://bibsys-c.alma.exlibrisgroup.com/leganto/){:target="blank"}  
 
 
 
 
-## Kunngjøringer  
+## Announcements  
 
-Kunngjøringer og beskjeder legges ut i [Canvas](https://uit.instructure.com/){:target="blank"}.
+Announcements and messages are posted in [Canvas](https://uit.instructure.com/){:target="blank"}.
 
 
-## Innlevering og eksamen  
+## Submission and Examination  
 
-Kurset har mappeevaluering. Alle oppgaver er obligatorisk; noen er _arbeidskrav_ (uten karakter), mens andre er karaktergivende.  
+The course has a portfolio evaluation. All tasks are compulsory; some are _requirements_ (without grading), while others are graded.  
 
-Frister, oppgaver og ressurser finnes i [innleveringsplan](innleveringer.html){:target="blank"}.    
-
+Deadlines, tasks, and resources can be found in the [submission plan](innleveringer.html){:target="blank"}.
