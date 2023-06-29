@@ -40,7 +40,7 @@ Announcements and messages are posted in [Canvas](https://uit.instructure.com/co
 
 ## Home Assignments, obligatory or not?
 
-You have an assignment portfolio. We will post a lot of small assignments, and some larger ones. Doing these earns various amounts of points to your portfolio.
+You have an assignment portfolio. We will post a lot of small assignments, and some larger ones, in Canvas. Doing these earns various amounts of points to your portfolio.
 There will be a total of 100 points during the semester. You need 70 points to pass, and be eligible for the final exam. This means that you do not have to do all assignments. If you skip one, new chances will come.
 
 
