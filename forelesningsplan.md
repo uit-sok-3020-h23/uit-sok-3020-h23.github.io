@@ -1,10 +1,23 @@
 {% include navbar_open.html %}{% include top-box.html %}
 
+
 # Course Plan
 
-| Session   | Date  |To do/done before/after class...   |
-|-----------------------|---------|---------------------| 
-|*Preparation*  | | In this course, we utilize the open-source programming software R, along with its graphical user interface, RStudio, for our estimations.
+{:target="blank"} 
+
+
+| Session  | Date | To do                                            |
+|------------------|---------|------------------------------------------------------------------|
+| *Preparation*    |         | In this course, we utilize the open-source programming software R, along with its graphical user interface, RStudio, for our estimations.      |
+| 1                | 17/8    | kommer    |
+| 2                | 25/8    | kommer    |
+
+
+
+
+
+
+
 We highly recommend you download these onto your personal computer and spend some time acquainting yourself with their interfaces.
 You can download R from [here](https://cloud.r-project.org/){:target='_blank_'}, and RStudio from [here](https://posit.co/download/rstudio-desktop/){:target='_blank_'}.
 In particular, take note of the RStudio IDE Cheat Sheet and the Data Transformation Cheat Sheet.
