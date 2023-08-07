@@ -1,5 +1,4 @@
 {% include navbar_open.html %}{% include top-box.html %}
-# SOK-3020 Econometrics
 
 ## Seminar plan   
 
