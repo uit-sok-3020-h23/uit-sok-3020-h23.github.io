@@ -1,13 +1,6 @@
 {% include navbar_open.html %}{% include top-box.html %}
-# SOK-xxxx Kurs    
+# SOK-3020 Econometrics
 
-## Seminarplan   
+## Seminar plan   
 
-
-
-|Uke | Seminarnr. | Tema                        |  Oppgaver og ressurser  |
-|----|------------|-----------------------------|-------------------------|
-| x  | x          | Tilbud og etterspørsel I    | kommer                  |
-| x  | x          | IS-LM                       | kommer                  |
-| x  | x          | R                           | kommer                  |
-| x  | x          | Python                      | kommer                  |
+All seminars are embedded in the lectures. Lectures will be a mixture of theory and empirical applications, and will be posted in the course plan https://uit-sok-3020-h23.github.io/forelesningsplan.html
