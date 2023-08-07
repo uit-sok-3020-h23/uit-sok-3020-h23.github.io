@@ -1,5 +1,5 @@
 {% include navbar_open.html %}{% include top-box.html %}
-# Sok-xxxx Mikroøkonomi   
+# SOK-3020 Econometrics
 
 ## Innleveringer 
 
