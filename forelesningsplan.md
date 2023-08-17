@@ -12,6 +12,7 @@
 | 1                | 17/8    |  [Intro to R for Econometrics](https://github.com/uit-sok-3020-h23/uit-sok-3020-h23.github.io/blob/main/intro%20to%20R%20for%20econometrics.qmd){:target='_blank_'} |
 | | | Browse the paper "Econometric Computing with 'R'" (in Files in Canvas) |
 | 2                | 25/8    | Chapter 1. An introduction to econometrics    |
+| **Self Study** |     |  Probability Primer |
 
 
 
