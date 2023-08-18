@@ -12,8 +12,10 @@
 | 1                | 17/8    |  [Intro to R for Econometrics](https://github.com/uit-sok-3020-h23/uit-sok-3020-h23.github.io/blob/main/intro%20to%20R%20for%20econometrics.qmd){:target='_blank_'} |
 | | | Browse the paper "Econometric Computing with 'R'" (in Files in Canvas) |
 |  |  | Relating to our wages example in class, there is a [report out from SSB](https://www.ssb.no/inntekt-og-forbruk/inntekt-og-formue/artikler/forskjeller-i-livslopsinntekt-mellom-utdanningsgrupper/_/attachment/inline/fbc61677-a679-4edd-93d8-c6095b866d0d:138a258371f5d983314e8175b97bb5ed5adc04e3/RAPP2023-26.pdf){:target='_blank_'} that looks at lifetime income in different professions (in Norwegian) |
+| **Self Study** |     |  Probability Primer, POE5 p. 15-39 |
+|   |   |   |
 | 2                | 25/8    | Chapter 1. An introduction to econometrics    |
-| **Self Study** |     |  Probability Primer |
+
 
 
 
