@@ -13,7 +13,7 @@
 | | | Browse the paper "Econometric Computing with 'R'" (in Files in Canvas) |
 |  |  | Relating to our wages example in class, there is a [report out from SSB](https://www.ssb.no/inntekt-og-forbruk/inntekt-og-formue/artikler/forskjeller-i-livslopsinntekt-mellom-utdanningsgrupper/_/attachment/inline/fbc61677-a679-4edd-93d8-c6095b866d0d:138a258371f5d983314e8175b97bb5ed5adc04e3/RAPP2023-26.pdf){:target='_blank_'} that looks at lifetime income in different professions (in Norwegian) |
 | **Self Study** |     |  Probability Primer, POE5 p. 15-39 |
-|   |   |  Example P.1 Using a cdf   Rcode   video  |
+|   |   |  Example P.1 Using a cdf  [Rcode](https://raw.githubusercontent.com/uit-sok-3020-h23/uit-sok-3020-h23.github.io/main/example_p1%20using%20a%20cdf.R){:target='_blank_'}  video  |
 |   |   |         |  
 |   |   |         |  
 | 2                | 25/8    | Chapter 1. An introduction to econometrics    |
