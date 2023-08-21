@@ -25,6 +25,18 @@
 |   |   | Example P.10 Covariance Decomposition  [Rcode](https://raw.githubusercontent.com/uit-sok-3020-h23/uit-sok-3020-h23.github.io/main/example_p10%20covariance%20decomposition.R){:target='_blank_'}   |  
 |   |   | Example P.11 Normal Distribution Probability Calculation  [Rcode](https://raw.githubusercontent.com/uit-sok-30201-h23/uit-sok-3020-h23.github.io/main/example_p11-normal-distribution-probability-calculation.R){:target='_blank_'}  [video](https://uit.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ed10162c-003a-441f-bc7f-b06200d77a64){:target='_blank_'}   |  
 | 2                | 25/8    | Chapter 1. An introduction to econometrics    |
+| 3  | 30/8 |    |
+| 4  | 4/9 |    |
+| 5  | 8/9 |    |
+| 6  | 11/9 |    |
+| 7  | 15/9 |    |
+|  8 | 22/9 |    |
+| 9  | 27/9 |    |
+| 10  | 29/9 |    |
+
+
+
+
 
 
 
