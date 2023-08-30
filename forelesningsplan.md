@@ -25,7 +25,7 @@
 |   |   | Example P.10 Covariance Decomposition  [Rcode](https://raw.githubusercontent.com/uit-sok-3020-h23/uit-sok-3020-h23.github.io/main/example_p10%20covariance%20decomposition.R){:target='_blank_'}   |  
 |   |   | Example P.11 Normal Distribution Probability Calculation  [Rcode](https://raw.githubusercontent.com/uit-sok-3020-h23/uit-sok-3020-h23.github.io/main/example_p11-normal-distribution-probability-calculation.R){:target='_blank_'}  [video](https://uit.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ed10162c-003a-441f-bc7f-b06200d77a64){:target='_blank_'}   |  
 | 2                | 25/8    | Chapter 1. An introduction to econometrics  [pdf](https://github.com/uit-sok-3020-h23/uit-sok-3020-h23.github.io/blob/main/Why%20Study%20Econometrics_.pdf){:target='_blank_'} [Quarto](https://raw.githubusercontent.com/uit-sok-3020-h23/uit-sok-3020-h23.github.io/main/chap1_why_study_econometrics.qmd){:target='_blank_'} [R_code](https://raw.githubusercontent.com/uit-sok-3020-h23/uit-sok-3020-h23.github.io/main/chap1_r_pres_annotated.r){:target='_blank_'}  |
-| 3  | 30/8 | Appendix A [R code](https://raw.githubusercontent.com/uit-sok-3020-h23/uit-sok-3020-h23.github.io/main/Appendix_A_annotated.R){:target='_blank_'}    |
+| 3  | 30/8 | Appendix A [R code](https://raw.githubusercontent.com/uit-sok-3020-h23/uit-sok-3020-h23.github.io/main/Appendix_A_annotated.R){:target='_blank_'} ["old" video](https://uit.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e39c6666f51844efa636aee500c51b7a){:target='_blank_'}    |
 | **Self Study** |     |  Appendix B |
 | 4  | 4/9 |    |
 | 5  | 8/9 |    |
