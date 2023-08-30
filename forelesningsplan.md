@@ -27,7 +27,7 @@
 | 2                | 25/8    | Chapter 1. An introduction to econometrics  [pdf](https://github.com/uit-sok-3020-h23/uit-sok-3020-h23.github.io/blob/main/Why%20Study%20Econometrics_.pdf){:target='_blank_'} [Quarto](https://raw.githubusercontent.com/uit-sok-3020-h23/uit-sok-3020-h23.github.io/main/chap1_why_study_econometrics.qmd){:target='_blank_'} [R_code](https://raw.githubusercontent.com/uit-sok-3020-h23/uit-sok-3020-h23.github.io/main/chap1_r_pres_annotated.r){:target='_blank_'}  |
 | 3  | 30/8 | Appendix A [Mathematical Tools in R](https://raw.githubusercontent.com/uit-sok-3020-h23/uit-sok-3020-h23.github.io/main/Appendix_A_annotated.R){:target='_blank_'} ["old" video](https://uit.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e39c6666f51844efa636aee500c51b7a){:target='_blank_'}    |
 | **Self Study** |     |  Appendix B - Probability Concepts |
-| 4  | 4/9 |  Appendix C [Review of Statistical Inference]() ["old" video](https://uit.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=dc4c99e712144fb9867caee500c59292){:target='_blank_'}  |
+| 4  | 4/9 |  Appendix C [Review of Statistical Inference](https://raw.githubusercontent.com/uit-sok-3020-h23/uit-sok-3020-h23.github.io/main/Appendix%20C.R){:target='_blank_'} ["old" video](https://uit.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=dc4c99e712144fb9867caee500c59292){:target='_blank_'}  |
 | 5  | 8/9 |    |
 | 6  | 11/9 |    |
 | 7  | 15/9 |    |
