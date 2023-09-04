@@ -28,6 +28,13 @@
 | 3  | 30/8 | Appendix A [Mathematical Tools in R](https://raw.githubusercontent.com/uit-sok-3020-h23/uit-sok-3020-h23.github.io/main/Appendix_A_annotated.R){:target='_blank_'} ["old" video](https://uit.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e39c6666f51844efa636aee500c51b7a){:target='_blank_'}    |
 | **Self Study** |     |  Appendix B - Probability Concepts |
 | 4  | 4/9 |  Appendix C [Review of Statistical Inference](https://raw.githubusercontent.com/uit-sok-3020-h23/uit-sok-3020-h23.github.io/main/Appendix%20C.R){:target='_blank_'} ["old" video](https://uit.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=dc4c99e712144fb9867caee500c59292){:target='_blank_'}  |
+|    | **Resources from the mosaic package:**    | [Minimal R](https://cran.r-project.org/web/packages/mosaic/vignettes/MinimalRgg.pdf){:target='_blank_'}    |
+|    |        |    [Project MOSAIC Little Books](https://github.com/ProjectMOSAIC/LittleBooks/blob/master/README.md){:target='_blank_'}            |
+|    |        |     [Graphics and functions](http://www.mosaic-web.org/mosaic/articles/web-only/GraphicsWithMosaic.html){:target='_blank_'}      | 
+|    |        |   [Monte Carlo simulation or bootstrapping](http://www.mosaic-web.org/mosaic/articles/Resampling.html){:target='_blank_'}      |
+|    | **Supplementary readings:**    | [P–Value, A True Test Of Statistical Significance? A Cautionary Note](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4111019/){:target='_blank_'}   |
+|    |       |     [The Significant Problem of P Values](https://www.scientificamerican.com/article/the-significant-problem-of-p-values/){:target='_blank_'}        |
+|    |       |      [Seen from the xkcd perspective](https://xkcd.com/882/){:target='_blank_'}       |
 | 5  | 8/9 |    |
 | 6  | 11/9 |    |
 | 7  | 15/9 |    |
