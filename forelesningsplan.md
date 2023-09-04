@@ -34,7 +34,7 @@
 |    |        |   [Monte Carlo simulation or bootstrapping](http://www.mosaic-web.org/mosaic/articles/Resampling.html){:target='_blank_'}      |
 |    | **Supplementary readings:**    | [P–Value, A True Test Of Statistical Significance? A Cautionary Note](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4111019/){:target='_blank_'}   |
 |    |       |     [The Significant Problem of P Values](https://www.scientificamerican.com/article/the-significant-problem-of-p-values/){:target='_blank_'}        |
-|    |       |      [Seen from the xkcd perspective](https://xkcd.com/882/){:target='_blank_'}       |
+|    |       |      [P-values from the xkcd perspective](https://xkcd.com/882/){:target='_blank_'}       |
 | 5  | 8/9 |    |
 | 6  | 11/9 |    |
 | 7  | 15/9 |    |
