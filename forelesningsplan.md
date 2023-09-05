@@ -36,7 +36,7 @@
 |    |       | [P–Value, A True Test Of Statistical Significance? A Cautionary Note](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4111019/){:target='_blank_'}   |
 |    |       |     [The Significant Problem of P Values](https://www.scientificamerican.com/article/the-significant-problem-of-p-values/){:target='_blank_'}        |
 |    |       |      [P-values from the xkcd perspective](https://xkcd.com/882/){:target='_blank_'}       |
-| 5  | 8/9 |  Chapter 2 - The Simple Linear Regression Model    [R code for Chapter 2](){:target='_blank_'}  |
+| 5  | 8/9 |  Chapter 2 - The Simple Linear Regression Model  <br />  <br />  [R code for Chapter 2](){:target='_blank_'}  |
 |    |     |   ["old" video (Part 1)](https://uit.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=8cafa645-c30b-465a-a992-aee500c4723a){:target='_blank_'}     |
 |    |     |   ["old" video (Part 2)](https://uit.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=fe2607de-2c56-492f-87bd-aee500c57671){:target='_blank_'}  |
 | 6  | 11/9 |    |
