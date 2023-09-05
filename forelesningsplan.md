@@ -37,7 +37,7 @@
 |    |       |     [The Significant Problem of P Values](https://www.scientificamerican.com/article/the-significant-problem-of-p-values/){:target='_blank_'}        |
 |    |       |      [P-values from the xkcd perspective](https://xkcd.com/882/){:target='_blank_'}       |
 | 5  | 8/9 |  Chapter 2 - The Simple Linear Regression Model |
-|    |     |   [R code for Chapter 2](){:target='_blank_'}  |
+|    |     |   [R code for Chapter 2](https://raw.githubusercontent.com/uit-sok-3020-h23/uit-sok-3020-h23.github.io/main/R%20code%20Chapter%202.R){:target='_blank_'}  |
 |    |     |   ["old" video (Part 1)](https://uit.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=8cafa645-c30b-465a-a992-aee500c4723a){:target='_blank_'}     |
 |    |     |   ["old" video (Part 2)](https://uit.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=fe2607de-2c56-492f-87bd-aee500c57671){:target='_blank_'}  |
 | 6  | 11/9 |    |
