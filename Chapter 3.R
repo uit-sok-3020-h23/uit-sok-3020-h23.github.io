@@ -80,9 +80,11 @@ confint(fit)
 confint(fit, level = 0.9) # change to a 90% CI
 qt(0.975, fit$df.residual) # critical t, 1-0.05/2, N-2 df
 
+df_fit <- df.residual(fit)
+
 # manual 95% CI
-coef(fit)[2]+qt(0.975,38)*sqrt(diag(vcov(fit)))[2]
-coef(fit)[2]-qt(0.975,38)*sqrt(diag(vcov(fit)))[2]
+coef(fit)[2]-qt(0.975,df_fit)*sqrt(diag(vcov(fit)))[2]
+coef(fit)[2]+qt(0.975,df_fit)*sqrt(diag(vcov(fit)))[2]
 
 #' Repeated sampling (mosaic::do) or bootstrapping
 # https://cran.r-project.org/web/packages/mosaic/vignettes/Resampling.pdf
@@ -140,8 +142,8 @@ ggplot(df, aes(x)) +                    # basic graphical object
   geom_line(aes(y=y2), colour="blue")  # second layer t distr
 
 #' Critical t-values, p. 116
-qt(c(0.025, 0.975), df=38) 
-qdist("t", c(.025, .975) , df=38) # plot
+qt(c(0.025, 0.975), df=df_fit) 
+qdist("t", c(.025, .975) , df=df_fit) # plot
 
 ### Continue
 #A 95% confidence interval is calculated ad follows:
@@ -157,7 +159,7 @@ mplot(fit, which=7, rows=-1, xlim=c(-1,15))
 #' Repeated Sample - A Computer Simulation 
 p_load(TeachingDemos)
 set.seed(219)
-ci.examp(mean.sim=10.21, sd=2.09, n=38, reps=100, conf.level = 0.95, method = "t")
+ci.examp(mean.sim=10.21, sd=2.09, n=df_fit, reps=100, conf.level = 0.95, method = "t")
 
 p_load(car, multcomp)  # install car and multcomp packages 
 
@@ -170,36 +172,36 @@ library(FSAmisc)
 
 # Example 3.2, p.123, here we specify a one-tail right-test, H0: b2=0, H1: b2>0
 # t-critical (tc) alpha=0.05 
-qt(0.95, 38)
+qt(0.95, df_fit)
 hoCoef(fit, term = 2, bo = 0, alt = c("greater")) # FSA::hoCoef, one sided test, specify the H1 using alt=
 summary(glht(fit, linfct = c("income <= 0"))) # multcomp::glht, one sided test,  specify the H0 using linfct=
 # calculated t > tc, reject H0
-summary(glht(fit, linfct = c("income <= 0")))$test$tstat > qt(0.95, 38)
+summary(glht(fit, linfct = c("income <= 0")))$test$tstat > qt(0.95, df_fit)
 
 # Example 3.3, p. 124, here we specify a one-tail test, H0: b2<=5.5, H1: b2>5.5
 # t-critical (tc) alpha=0.01 
-qt(0.99, 38)
+qt(0.99, df_fit)
 hoCoef(fit, term = 2, bo = 5.5, alt = c("greater")) # FSA::hoCoef, one sided test
 summary(glht(fit, linfct = c("income <= 5.5"))) # multcomp::glht, one sided test
 # calculated t not larger than critical, keep H0
-summary(glht(fit, linfct = c("income <= 5.5")))$test$tstat > qt(0.99, 38)
+summary(glht(fit, linfct = c("income <= 5.5")))$test$tstat > qt(0.99, df_fit)
 
 # Example 3.4, p.125, here we specify a one-tail test, H0: b2>=15, H1: b2<15
 # t-critical (tc) alpha=0.05 
-qt(0.05, 38) # note that since this is a left tail test, how we change the quantile to the left of the distribution
+qt(0.05, df_fit) # note that since this is a left tail test, how we change the quantile to the left of the distribution
 hoCoef(fit, term = 2, bo = 15, alt = c("less")) # FSA::hoCoef, one sided test
 summary(glht(fit, linfct = c("income >= 15"))) # multcomp::glht, one sided test, H0
 # we reject H0
-summary(glht(fit, linfct = c("income >= 15")))$test$tstat < qt(0.05, 38)
+summary(glht(fit, linfct = c("income >= 15")))$test$tstat < qt(0.05, df_fit)
 
 # Example 3.5, p.125, two-tail test, here we specify a two-tail test, H0: b2=7.5, H1: b2!=7.5
 # t-critical (tc) alpha/2=0.05/2
-qt(c(0.025,0.975), 38)
+qt(c(0.025,0.975), df_fit)
 linearHypothesis(fit, "income = 7.5") # gives an F-value
 hoCoef(fit, term = 2, bo = 7.5, alt = c("two.sided"))
 summary(glht(fit, linfct = c("income = 7.5")))
 # we do not reject H0
-summary(glht(fit, linfct = c("income = 7.5")))$test$tstat > abs(qt(c(0.025,0.975), 38))
+summary(glht(fit, linfct = c("income = 7.5")))$test$tstat > abs(qt(c(0.025,0.975), df_fit))
 
 # Example 3.6
 summary(fit)
@@ -210,7 +212,7 @@ confint(fit, level = 0.95)
 # Example 3.2, p. 123, one-tail test revisited, by looking at the p-value for a two tail test.
 summary(glht(fit, linfct = c("income <= 0")))
 linearHypothesis(fit, "income = 0") # two-tail test
-qt(0.95, 38) # critical t-valule
+qt(0.95, df_fit) # critical t-valule
 #To get the one-tail p-value, we take the two-tail p-value and divide it with 2.
 h <- linearHypothesis(fit, "income = 0")
 str(h)
@@ -223,7 +225,7 @@ h$Pr/2
 
 # Example 3.6, default two-tail test of significance
 # t-critical (tc) alpha/2=0.05/2
-qt(c(0.025,0.975), 38)
+qt(c(0.025,0.975), df_fit)
 summary(fit)
 
 ##############################################
@@ -270,10 +272,10 @@ dmt <- deltaMethod(fit, "b1+20*b2-250", parameterNames= paste("b", 1:2, sep=""))
 # t-value
 dmt$Estimate/dmt$SE
 # critical t, alphe=0.05
-qt(0.95, 38)
+qt(0.95, df_fit)
 
 # reject H0
-dmt$Estimate/dmt$SE > qt(0.95, 38)
+dmt$Estimate/dmt$SE > qt(0.95, df_fit)
 
 # Trick to use glht, with hypothesis involving (Intercept), create own intercept, call it "one"
 head(model.matrix(fit))
