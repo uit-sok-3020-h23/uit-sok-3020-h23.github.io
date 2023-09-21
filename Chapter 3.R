@@ -170,6 +170,34 @@ p_load(car, multcomp)  # install car and multcomp packages
 #remotes::install_github("droglenc/FSAmisc")
 library(FSAmisc)
 
+# p-value
+# p-value === Probability("the sample statistic would be as large as the value actually observed, if H0 is true")
+
+# Low p-value: A low p-value (typically less than a predetermined significance level, e.g., 0.05) suggests that the
+# observed sample statistic is unlikely to have occurred by random chance alone if the null hypothesis were true.
+# Therefore, you might reject the null hypothesis in favor of the alternative hypothesis.
+
+# High p-value: A high p-value suggests that the observed sample statistic is consistent with what we might expect 
+# to see if the null hypothesis were true. Therefore, you might fail to reject the null hypothesis.
+
+# The level of significance, alpha, is a predetermined threshold that researchers set before conducting a hypothesis test.
+# It represents the probability of making a Type I error, which is the error of incorrectly rejecting a true null hypothesis.
+# Common choices for alpha are 0.05, 0.01, and 0.10, though other values can be used depending on the context.
+
+# If p-value <= alpha: The evidence against the null hypothesis is strong enough to reject it.
+# In other words, the observed sample statistic is so extreme that it would be unlikely to occur if the null hypothesis were true.
+# By rejecting the null hypothesis when the p-value is less than or equal to alpha, you run the risk of making a Type I error with a probability of alpha.
+
+# If p-value > alpha: There isn't enough evidence to reject the null hypothesis.
+# The observed sample statistic is consistent with what might be expected under the null hypothesis.
+
+# alpha can be thought of as a "cutoff" or "threshold" for the p-value.
+# If the p-value falls below this threshold, you reject the null hypothesis.
+# The statement "the p-value is the lowest level of alpha we can choose, given our data,
+# in order to avoid making a Type I error" means that if we set our significance level at the observed p-value,
+# any value higher than this would lead us to reject the null hypothesis, while any value lower would lead us to fail to reject it.
+
+
 # Example 3.2, p.123, here we specify a one-tail right-test, H0: b2=0, H1: b2>0
 # t-critical (tc) alpha=0.05 
 qt(0.95, df_fit)
