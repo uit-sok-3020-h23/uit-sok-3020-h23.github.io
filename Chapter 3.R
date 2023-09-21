@@ -170,8 +170,40 @@ p_load(car, multcomp)  # install car and multcomp packages
 #remotes::install_github("droglenc/FSAmisc")
 library(FSAmisc)
 
-# p-value
+### ------- p-value ----------
+
+# p-values are a statement about the probability of data, not a statement about the probability of a hypothesis or the probability of a theory.
 # p-value === Probability("the sample statistic would be as large as the value actually observed, if H0 is true")
+
+# The p-value is a measure that tells us how extreme our observed data (or something more extreme) is,
+# under the assumption that the null hypothesis is true.
+# In other words, it quantifies the probability of observing the data we have (or something more extreme)
+# if the null hypothesis were the correct model for our population.
+
+# p-values are NOT:
+# The p-value does not tell us the probability that the null hypothesis (or the alternative hypothesis) is true.
+# It only tells us how consistent our observed data is with the null hypothesis.
+
+# A low p-value indicates that the data is inconsistent with the null hypothesis,
+# but it doesn't quantify how likely the alternative hypothesis is.
+# It simply suggests that the observed data is unlikely under the null hypothesis.
+
+# Even a very low p-value is not absolute proof against the null hypothesis.
+# It just indicates that such data is rare if the null hypothesis is true. There's always a chance of observing rare events.
+
+# Why is this distinction important?
+# Misinterpreting p-values can lead to incorrect conclusions.
+# For instance, if a researcher gets a low p-value and mistakenly believes it means their theory is probably true,
+# they might be overconfident in their results. In reality, the p-value only speaks about the data in the context of the null hypothesis.
+
+# Relating it to the broader context:
+# In the scientific method, no single test or experiment can definitively prove a theory or hypothesis.
+# Instead, evidence accumulates over time from multiple studies and experiments.
+# The p-value is just one tool among many that researchers use to assess evidence.
+
+# In conclusion, while p-values provide valuable information about the extremeness of data under the null hypothesis,
+# they should be interpreted with caution and in the context of other evidence and considerations.
+# They are a statement about data, not about the truth or falsehood of hypotheses or theories.
 
 # Low p-value: A low p-value (typically less than a predetermined significance level, e.g., 0.05) suggests that the
 # observed sample statistic is unlikely to have occurred by random chance alone if the null hypothesis were true.
