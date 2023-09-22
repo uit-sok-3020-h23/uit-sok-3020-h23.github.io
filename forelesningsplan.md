@@ -46,11 +46,19 @@
 |    |      |   ["old" video (Part 1)](https://uit.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e319d74e-c548-4de3-b6f5-aee500c4d176){:target='_blank_'}     |
 |    |      |   ["old" video (Part 2)](https://uit.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=4d290fdc-36ae-4d2d-8495-aee500c57827){:target='_blank_'}     |
 |  8 | 22/9 |  Continue on Chapter 3   |
-| 9  | 27/9 |    |
+| 9  | 27/9 | Chapter 4 - Prediction, Goodness-of-Fit, and Modeling Issues   |
 | 10  | 29/9 |    |
 | 11  | 2/10 |    |
 | 12  | 4/10 |    |
 | 13  | 13/10 |    |
+| 14  | 17/10 |    |
+| 15  | 25/10 |    |
+| 16  | 27/10 |    |
+| 17  | 1/11 |    |
+| 18  | 2/11 |    |
+
+
+
 
 
 
