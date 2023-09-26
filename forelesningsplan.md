@@ -47,6 +47,8 @@
 |    |      |   ["old" video (Part 2)](https://uit.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=4d290fdc-36ae-4d2d-8495-aee500c57827){:target='_blank_'}     |
 |  8 | 22/9 |  Continue on Chapter 3   |
 | 9  | 27/9 | Chapter 4 - Prediction, Goodness-of-Fit, and Modeling Issues   |
+|    |      | ["old" video](){:target='_blank_'} |
+|    |      |  [Compiled R code for Chapter 4](https://uit-sok-3020-h23.github.io/Chapter 4.html){:target='_blank_'} | 
 | 10  | 29/9 |    |
 | 11  | 2/10 |    |
 | 12  | 4/10 |    |
