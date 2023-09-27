@@ -48,7 +48,7 @@
 |  8 | 22/9 |  Continue on Chapter 3   |
 | 9  | 27/9 | Chapter 4 - Prediction, Goodness-of-Fit, and Modeling Issues   |
 |    |      | ["old" video](){:target='_blank_'} |
-|    |      |  [Quarto R file for Chapter 4](https://uit-sok-3020-h23.github.io/Chapter%204.html](https://raw.githubusercontent.com/uit-sok-3020-h23/uit-sok-3020-h23.github.io/main/Chapter%204.qmd){:target='_blank_'} | 
+|    |      |  [Quarto R file for Chapter 4](https://raw.githubusercontent.com/uit-sok-3020-h23/uit-sok-3020-h23.github.io/main/Chapter%204.qmd){:target='_blank_'} | 
 | 10  | 29/9 |    |
 | 11  | 2/10 |    |
 | 12  | 4/10 |    |
