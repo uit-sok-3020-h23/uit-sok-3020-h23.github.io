@@ -51,7 +51,7 @@
 |    |      |  [Quarto R file for Chapter 4](https://raw.githubusercontent.com/uit-sok-3020-h23/uit-sok-3020-h23.github.io/main/Chapter%204.qmd){:target='_blank_'} | 
 | 10  | 29/9 |  Chapter 5 - The Multiple Regression Model  |
 |     |      |  [Note on FWL theorem](https://github.com/uit-sok-3020-h23/uit-sok-3020-h23.github.io/blob/main/FWL_theorem.pdf){:target='_blank_'}     |
-|     |      |       |
+|     |      |   <a href="uit-sok-3020-h23/uit-sok-3020-h23.github.io/blob/main/FWL_theorem.pdf" target="_blank">PDF.</a>    |
 |     |      |       |
 | 11  | 2/10 |    |
 | 12  | 4/10 |    |
