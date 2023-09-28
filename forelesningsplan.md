@@ -47,7 +47,7 @@
 |    |      |   ["old" video (Part 2)](https://uit.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=4d290fdc-36ae-4d2d-8495-aee500c57827){:target='_blank_'}     |
 |  8 | 22/9 |  Continue on Chapter 3   |
 | 9  | 27/9 | Chapter 4 - Prediction, Goodness-of-Fit, and Modeling Issues   |
-|    |      | ["old" video](["old" video](https://uit.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=befb571c-77a5-4919-b3e5-aee500c4b463){:target='_blank_'}){:target='_blank_'} |
+|    |      | ["old" video](https://uit.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=befb571c-77a5-4919-b3e5-aee500c4b463){:target='_blank_'} |
 |    |      |  [Quarto R file for Chapter 4](https://raw.githubusercontent.com/uit-sok-3020-h23/uit-sok-3020-h23.github.io/main/Chapter%204.qmd){:target='_blank_'} | 
 | 10  | 29/9 |  Chapter 5 - The Multiple Regression Model  |
 |     |      |  [Note on FWL theorem](https://uit-sok-3020-h23.github.io/FWL_theorem.pdf){:target='_blank_'}   |
