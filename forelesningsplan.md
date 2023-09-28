@@ -50,6 +50,7 @@
 |    |      | ["old" video](["old" video](https://uit.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=befb571c-77a5-4919-b3e5-aee500c4b463){:target='_blank_'}){:target='_blank_'} |
 |    |      |  [Quarto R file for Chapter 4](https://raw.githubusercontent.com/uit-sok-3020-h23/uit-sok-3020-h23.github.io/main/Chapter%204.qmd){:target='_blank_'} | 
 | 10  | 29/9 |  Chapter 5 - The Multiple Regression Model  |
+|     |      |  [Note on FWL theorem](https://github.com/uit-sok-3020-h23/uit-sok-3020-h23.github.io/blob/main/FWL_theorem.pdf){:target='_blank_'}     |
 |     |      |       |
 |     |      |       |
 | 11  | 2/10 |    |
