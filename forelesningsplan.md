@@ -50,6 +50,7 @@
 |    |      | ["old" video](https://uit.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=befb571c-77a5-4919-b3e5-aee500c4b463){:target='_blank_'} |
 |    |      |  [Quarto R file for Chapter 4](https://raw.githubusercontent.com/uit-sok-3020-h23/uit-sok-3020-h23.github.io/main/Chapter%204.qmd){:target='_blank_'} | 
 | 10  | 29/9 |  Chapter 5 - The Multiple Regression Model  |
+|     |      |   ["old" video](https://uit.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d3c5a562-fdf8-48f6-9b49-aee500c5236b){:target='_blank_'}     |
 |     |      |  [Note on FWL theorem](https://uit-sok-3020-h23.github.io/FWL_theorem.pdf){:target='_blank_'}   |
 |     |      |  [R code for Chapter 5](https://raw.githubusercontent.com/uit-sok-3020-h23/uit-sok-3020-h23.github.io/main/Chapter%205.R){:target='_blank_'}     |
 |     |      |  A closer explanation of Example 5.10, p. 220. [Testing for elastic demand](https://en.wikipedia.org/wiki/Total_revenue_test){:target='_blank_'}.   |
