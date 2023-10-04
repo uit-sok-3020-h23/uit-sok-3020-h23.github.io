@@ -54,8 +54,8 @@
 |     |      |  [Note on FWL theorem](https://uit-sok-3020-h23.github.io/FWL_theorem.pdf){:target='_blank_'}   |
 |     |      |  [R code for Chapter 5](https://raw.githubusercontent.com/uit-sok-3020-h23/uit-sok-3020-h23.github.io/main/Chapter%205.R){:target='_blank_'}     |
 |     |      |  A closer explanation of Example 5.10, p. 220. [Testing for elastic demand](https://en.wikipedia.org/wiki/Total_revenue_test){:target='_blank_'}.   |
-| 11  | 2/10 | Continue on Chapter 5   |
 |     |      |  [Own price elasticity from sales model](https://uit-sok-3020-h23.github.io/elasticity_in_sales_model.pdf){:target='_blank_'}       |
+| 11  | 2/10 | Continue on Chapter 5   |
 | 12  | 4/10 | A look back on what we have learned so far   |
 |     |      | The [delta method](https://raw.githubusercontent.com/uit-sok-3020-h23/uit-sok-3020-h23.github.io/main/delta_method.R){:target='_blank_'}.   | 
 | 13  | 13/10 |    |
