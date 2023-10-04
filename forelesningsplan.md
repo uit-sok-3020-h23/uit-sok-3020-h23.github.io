@@ -55,7 +55,7 @@
 |     |      |  [R code for Chapter 5](https://raw.githubusercontent.com/uit-sok-3020-h23/uit-sok-3020-h23.github.io/main/Chapter%205.R){:target='_blank_'}     |
 |     |      |  A closer explanation of Example 5.10, p. 220. [Testing for elastic demand](https://en.wikipedia.org/wiki/Total_revenue_test){:target='_blank_'}.   |
 | 11  | 2/10 | Continue on Chapter 5   |
-| 12  | 4/10 |    |
+| 12  | 4/10 | A look back on what we have learned so far   |
 | 13  | 13/10 |    |
 | 14  | 17/10 |    |
 | 15  | 25/10 |    |
