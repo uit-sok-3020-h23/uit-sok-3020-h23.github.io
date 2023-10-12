@@ -59,8 +59,9 @@
 | 12  | 4/10 | A look back on what we have learned so far   |
 |     |      | The [delta method](https://raw.githubusercontent.com/uit-sok-3020-h23/uit-sok-3020-h23.github.io/main/delta_method.R){:target='_blank_'}.   | 
 | 13  | 13/10 | Chapter 6 - Further Inference in the Multiple Regression Model   |
-|     |        |  [R code Chapter 6](https://raw.githubusercontent.com/uit-sok-3020-H22/uit-sok-3020-H22.github.io/main/R%20code%20for%20Chapter%206.R){:target='_blank_'}.                      |
-| 14  | 17/10 |    |
+|     |      |   ["old" video](https://uit.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f7414982-3db6-4bb2-925b-aee500c49725){:target='_blank_'}     |
+|     |      |  [R code Chapter 6](https://raw.githubusercontent.com/uit-sok-3020-H22/uit-sok-3020-H22.github.io/main/R%20code%20for%20Chapter%206.R){:target='_blank_'}.                      |
+| 14  | 17/10 | Chapter 7 -    |
 | 15  | 25/10 |    |
 | 16  | 27/10 |    |
 | 17  | 1/11 |    |
