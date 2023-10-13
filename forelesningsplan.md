@@ -62,7 +62,8 @@
 |     |      |   ["old" video](https://uit.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f7414982-3db6-4bb2-925b-aee500c49725){:target='_blank_'}     |
 |     |      |  [R code Chapter 6](https://raw.githubusercontent.com/uit-sok-3020-H22/uit-sok-3020-H22.github.io/main/R%20code%20for%20Chapter%206.R){:target='_blank_'}.                      |
 | 14  | 17/10 | Chapter 7 - Using Indicator Variables    |
-|     |       |                             | 
+|     |       |  ["old" video](https://uit.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=0cc6111f-0182-4bee-aa59-aee500c5110b){:target='_blank_'}                      | 
+|     |       |   [Simple dummy R code in "old Chapter 7 video"](https://raw.githubusercontent.com/uit-sok-3020-h23/uit-sok-3020-h23.github.io/main/simple_dummy.R){:target='_blank_'}         | 
 |     |       |  [R code for Chapter 7](https://raw.githubusercontent.com/uit-sok-3020-h23/uit-sok-3020-h23.github.io/main/Chapter%207.R){:target='_blank_'}           |
 | 15  | 25/10 |    |
 | 16  | 27/10 |    |
