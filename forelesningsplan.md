@@ -66,7 +66,7 @@
 |     |       |   [Simple dummy R code in "old Chapter 7 video"](https://raw.githubusercontent.com/uit-sok-3020-h23/uit-sok-3020-h23.github.io/main/simple_dummy.R){:target='_blank_'}         | 
 |     |       |  [R code for Chapter 7](https://raw.githubusercontent.com/uit-sok-3020-h23/uit-sok-3020-h23.github.io/main/Chapter%207.R){:target='_blank_'}           |
 | 15  | 25/10 | Chapter 8 - Heteroskedasticity    |
-|     |       | ["old" video](https://uit.cloud.panopto.eu/Panopto/Pages/Auth/Access.aspx?delivery=903d5add-7fd2-4ccb-8f33-aee500c57e4f){:target='_blank_'}|
+|     |       | ["old" video](https://uit.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=903d5add-7fd2-4ccb-8f33-aee500c57e4f){:target='_blank_'}|
 |   |  | [R code for Chapter 8](https://github.com/uit-sok-3020-H22/uit-sok-3020-H22.github.io/blob/main/R%20code%20from%20Chapter%208.R){:target='_blank_'}  |
 | 16  | 27/10 | Chapter 09: Regression with Time-Series Data: Stationary Variables   |
 | 17  | 1/11 | [R code for Chapter 9](https://github.com/uit-sok-3020-H22/uit-sok-3020-H22.github.io/blob/main/chapter_9.R){:target='_blank_'}     |
