@@ -70,8 +70,8 @@
 |   |  | [R code for Chapter 8](https://github.com/uit-sok-3020-H22/uit-sok-3020-H22.github.io/blob/main/R%20code%20from%20Chapter%208.R){:target='_blank_'}  |
 | 16  | 27/10 | Chapter 09: Regression with Time-Series Data: Stationary Variables   |
 | 17  | 1/11 | [R code for Chapter 9](https://github.com/uit-sok-3020-H22/uit-sok-3020-H22.github.io/blob/main/chapter_9.R){:target='_blank_'}     |
-| 18  | 6/11 |    |
-| 19  | 2/11 |    |
+| 18  | 2/11 |we will finalize Chapter 09 in the first session.  And then will strat chapter 12 in the second session   |
+| 19  | 6/11 |    |
 | 20  | 8/11 |    |
 | 21  | 13/11 |    |
 | 22  | 15/11 |    |
