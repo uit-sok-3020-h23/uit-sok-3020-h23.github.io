@@ -6,6 +6,7 @@ library(mosaic)
 
 browseURL("http://www.principlesofeconometrics.com/poe5/data/def/gdp5.def")
 load(url("http://www.principlesofeconometrics.com/poe5/data/rdata/gdp5.rdata"))
+
 # Obs: 132 quarterly observations, U.S. data from 1984Q1 to 2016Q4
 head(gdp5)
 str(gdp5)
@@ -14,12 +15,14 @@ gdp.ts <- ts(gdp5$gdp, start = c(1984,1), frequency = 4)
 
 browseURL("http://www.principlesofeconometrics.com/poe5/data/def/usdata5.def")
 load(url("http://www.principlesofeconometrics.com/poe5/data/rdata/usdata5.rdata"))
+
 # Obs: 749   Monthly U.S. Data from 1954M8 to 2016M12
 # 
 # infn =	Annual inflation rate for each month (obtained using infn = 100*(ln(cpi)-ln(cpi(-12)))
 #        where CPI is the consumer price index from FRED series CPIAUCSL
 # br =	3-year bond rate, percent (3-Year Treasury Constant Maturity Rate, FRED series G3)
 # ffr	= Federal funds rate, percent (FRED series FEDFUNDS) 
+
 head(usdata5)                                           
 br.ts <- ts(usdata5$br, start = c(1954,8), frequency = 12)
 ffr.ts <- ts(usdata5$ffr, start = c(1954,8), frequency = 12)
@@ -71,19 +74,21 @@ round(mean(window(diff(br.ts), start=c(1985,11), end=c(2016,12))),2)
 
 
 
+########################################################
+#  Example 12.2 A deterministic trend for wheat yield
+############################################################
+
 rm(list=ls())
 
-#Example 12.2 A deterministic trend for wheat yield
-
 browseURL("http://www.principlesofeconometrics.com/poe5/data/def/toody5.def")
+
 load(url("http://www.principlesofeconometrics.com/poe5/data/rdata/toody5.rdata"))
 head(toody5)
 str(toody5)
 
 
-
-#Data on wheat yield over time, in Australia.
-#Look how the yield is fluctuating an increasing trend
+# Data on wheat yield over time, in Australia.
+# Look how the yield is fluctuating an increasing trend
 
 library(rockchalk) 
 
@@ -106,21 +111,28 @@ plotCurves(fit2, plotx = "t", type="l", lty=2, main="b) Rain")
 toody5 %>% ggplot(aes(x=dateid01,y=rain))+geom_line()+geom_smooth(method = lm,se=FALSE)
 
 
-#' Two ways to estimate the relationship between yield and rainfall. 
+#' Let us estimate the relationship between yield and rainfall. 
+#' There are two alternatives to estimate the relationship. 
 
-#' Alternative 1 - just include trend in the regression.
-#'Because yield is not linearly over time, we use the constant percentage rate trend: ln(y)=a_1+a_2*t +u_t
+#'############################################
+#' Alternative 1: 
+###################################################
+#' Just include trend in the regression.
+#' This is because yield is not linearly over time, we use the constant percentage rate trend: ln(y)=a_1+a_2*t +u_t
 #' Furthermore, there are decreasing returns to rainfall,so we include RAIN^2 as well as RAIN in the model
 #' leading to the following estimated equation.
 
 fit3 <- lm(log(y)~t+rain+I(rain^2), data = toody5)
 summary(fit3) # 12.10
-
 plotCurves(fit3, plotx = "t", type="l", lty=2, main="a) ln(Yield)") 
 
 
-#' Alternative 2- Detrend ln(Yield), RAIN, and RAIN^2 and 
+###########################################################
+#  Alternative 2
+#############################################################
+#' Detrend ln(Yield), RAIN, and RAIN^2 and 
 #' estimate the detrended model.
+
 #' First, estimating the trends.
 #' That is detrend the variables, log(y), RAIN, and RAIN^2 
 
@@ -139,11 +151,15 @@ summary(lm(resid(lm(log(y)~t, data = toody5))~0+resid(lm(rain~t, data = toody5))
 
 
 
-#' Simulation of different types of AR(1) and random walk model 
+#############################################################
+### Simulation of different types of AR(1) and random walk model 
+##############################################################
 
 set.seed(1234)
+
 #' Simulate an AR1 model, with no intercept (or drift)
 a=arima.sim(list(order=c(1,0,0), ar=.7), n=500)
+
 plot(a, main=expression(paste("(a) ",y[t],"=","0.7",y[t-1]+v[t])))
 abline(h=mean(a), col="red")
 
@@ -177,6 +193,7 @@ Arima(a, order = c(1, 0, 0))
 set.seed(1234)
 # Simulate an AR1 model, with intercept (or drift)
 b=arima.sim(list(order=c(1,0,0), ar=.7), n=500) + 1 
+
 mean(b)
 plot(b, main=expression(paste("(b) ",y[t],"=","1+0.7",y[t-1]+v[t])))
 abline(h=mean(b), col="blue")
@@ -205,6 +222,7 @@ abline(h=mean(b), col="red")
 t <- 1:length(b)
 set.seed(1234)
 c=arima.sim(list(order=c(1,0,0), ar=.7), n=500) + 1 + 0.01*t
+
 plot(c, main=expression(paste("(c) ",y[t],"=","1+0.01t+0.7",y[t-1]+v[t])))
 
 arima(c, order = c(1,0,0), xreg=1:length(t)) 
@@ -215,12 +233,14 @@ auto.arima(c)
 
 set.seed(3234)
 d=ts(cumsum(rnorm(500)))
+
 plot(d, main=expression(paste("(d) ",y[t],"=",y[t-1]+v[t])))
 mean(d)
 Arima(d, order = c(1,0,0))
 
 set.seed(1234)
 e=ts(cumsum(rnorm(500))+0.1)
+
 plot(e, main=expression(paste("(e) ",y[t],"=","0.1+",y[t-1]+v[t])))
 
 Arima(e, order = c(1,0,0))
@@ -228,6 +248,7 @@ Arima(e, order = c(1,0,0))
 
 set.seed(1234)
 f=ts(cumsum(rnorm(500)+0.1+ 0.01*t))
+
 plot(f, main=expression(paste("(f) ",y[t],"=","0.1+0.01t+",y[t-1]+v[t])))
 Arima(f, order = c(1,0,0), xreg=1:length(t)) 
 mean(f)
@@ -243,6 +264,10 @@ plot(f, main=expression(paste("(f) ",y[t],"=","0.1+0.01t+",y[t-1]+v[t])))
 par(mfrow=c(1,1))
 
 
+
+#################################
+######## Spurious Regression 
+#######################################
 
 #Example 12.3:  Regression with two random walks
 
@@ -286,7 +311,13 @@ Arima(rw1, order = c(1,0,0), xreg=rw2)
 
 #--------------------------------------------
 
-#Unit Root Tests for Stationarity Ho: unit root (non-stationary) vs H1: stationary
+
+
+############################################
+########## Unit Root Tests for Stationarity 
+############################################
+
+#Ho: unit root (non-stationary) vs H1: stationary
 
 rm(list = ls())
 browseURL("http://www.principlesofeconometrics.com/poe5/data/def/usdata5.def")
@@ -357,6 +388,7 @@ summary(dynlm(d(log(yield.ts)) ~ t + L(log(yield.ts))))
 #' conclude that ln(yield) is trend stationary.
 
 
+
 #' Example 12.7: Order of Integration of variables
 
 #' Above, we showed that ffr.ts, and br.ts are non-stationary.
@@ -422,24 +454,40 @@ pp.test(br.ts, type = "Z(t_alpha)")
 pp.test(diff(br.ts), type = "Z(t_alpha)")
 
 
+############################################
+##### Cointegration test 
+###########################################
+
 #' Co-integration:- the relationship between I(1) variables 
 #' such as the residuas are I(0)
+#' 
+#' H0: no cointegration vs cointegration 
 
 #' Two step procedure by Engle and Granger
 summary(dynlm(br.ts~ffr.ts))
 # Extract the residuals from the model 
 e=resid(dynlm(br.ts~ffr.ts)) 
 
-#' check whether the error is stationary or not 
-summary(ur.df(e, type = "none", lags = 1))
+# Stationarity test of the residuals 
+summary(dynlm(d(e) ~ 0+L(e,1)+L(d(e),1:2)))
+# Compare the t-value of first lag of e with the 5% critical value
+# T_c = 3.37 (See Table 12.4 in the text book).
+# Reject H0: no-cointegration when t-value <= t_c
+
+
+#' Alternatively, just check whether the error is stationary or not 
+summary(ur.df(e, type = "none", lags = 2))
 adf.test(e)
 pp.test(e, type = "Z(t_alpha)")
 
-# direct method, br is column 2, and ffr is column 3 of usa data
+# Still another method, direct method, br is column 2, and ffr is column 3 of usa data
 head(usdata5)
+
+library(tseries)
 po.test(usdata5[,3:2])  #Phillips-Ouliaris Cointegration Test, H0: no cointegration vs H1: Cointegration
 
-#' Johansen test for co-integration, 
+
+#' Another cointegration approach, Johansen test for co-integration, 
 #' H0: no co-integration vs H1: Co-integration
 library(urca)
 ?ca.jo
@@ -447,25 +495,34 @@ johansen <- ca.jo(usdata5[,3:2], ecdet = "const", type = "trace")
 summary(johansen)
 
 
-#An Error Correction Model--- for the Bond and Federal Funds Rates
+###########################################
+#####Error Correction Model
+#################################################
 
-#A relationship between I(1) variables (or co-integration) is often referred to as 
-#long-run relationship while a relationship between I(0) variables is often refrred to as a short-run relationship.
-#Error correction model is a dynamic relationship between I(0) variables, which embeds a cointegrating relationship
+# A relationship between I(1) variables (or co-integration) is often referred to as 
+# long-run relationship while a relationship between I(0) variables is often referred to as a short-run relationship.
+# Error correction model is a dynamic relationship between I(0) variables, which embeds a cointegrating relationship
 
 
-#' Two ways to estimate
+#' Several ways to estimate Error correction model 
 
 B <- br.ts
 F <- ffr.ts
 
-#' e=br.ts <- ts(e, start = c(1954,8), frequency = 12)
+# Error correction model, when B is the dep.variable 
+Error_corr_B=dynlm(diff(B)~0+L(e,1)+L(diff(B),1:2)+L(diff(F),0:4))
+summary(Error_corr_B)
+# Error correction model, when F is the dep.variable 
+Error_corr_F=dynlm(diff(F)~0+L(e,1)+L(diff(F),1:2)+L(diff(B),0:4))
+summary(Error_corr_F)
 
-Error_corr=dynlm(diff(B)~0+L(e,1)+L(diff(B),1:2)+diff(F)+L(diff(F),1:4))
-summary(Error_corr)
+#Using VECM function 
+library(tsDyn)
+Vector_Error <- VECM(cbind(B,F), lag = 4, include = "none")
+summary(Vector_Error)
 
-
-#' Or Estimate directly using non-linear least squares or use OLS to estimate the modified model and then retrieve the parameters  
+#' Alternatively, Estimate directly using non-linear least squares or 
+#' use OLS to estimate the modified model and then retrieve the parameters  
 
 Data <- ts.intersect(dB=diff(B),lagB=stats::lag(B,-1),lagF=stats::lag(F,-1),dF=diff(F),lagdF=stats::lag(diff(F),-1), dframe=TRUE)
 
