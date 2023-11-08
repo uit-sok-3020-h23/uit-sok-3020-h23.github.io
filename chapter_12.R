@@ -92,9 +92,9 @@ str(toody5)
 
 library(rockchalk) 
 
-fit1 <- lm(y~t, data = toody5) #check using dep.var. y instead of log(y)
+fit1 <- lm(y~t, data = toody5) 
 summary(fit1)
-plotCurves(fit1, plotx = "t", type="l",lty=2, main="a) ln(Yield)") 
+plotCurves(fit1, plotx = "t", type="l",lty=2, main="a) Yield") 
 
 #' Alternatively 
 toody5 %>% ggplot(aes(x=dateid01,y=y))+geom_line()+geom_smooth(method = lm,se=FALSE)
@@ -118,25 +118,29 @@ toody5 %>% ggplot(aes(x=dateid01,y=rain))+geom_line()+geom_smooth(method = lm,se
 #' Alternative 1: 
 ###################################################
 #' Just include trend in the regression.
-#' This is because yield is not linearly over time, we use the constant percentage rate trend: ln(y)=a_1+a_2*t +u_t
 #' Furthermore, there are decreasing returns to rainfall,so we include RAIN^2 as well as RAIN in the model
 #' leading to the following estimated equation.
 
-fit3 <- lm(log(y)~t+rain+I(rain^2), data = toody5)
-summary(fit3) # 12.10
-plotCurves(fit3, plotx = "t", type="l", lty=2, main="a) ln(Yield)") 
+fit3 <- lm(y~t+rain+I(rain^2), data = toody5)
+summary(fit3) 
+plotCurves(fit3, plotx = "t", type="l", lty=2, main="a) Yield") 
+
+# If the dependent variable is given in log form
+fit4 <- lm(log(y)~t+rain+I(rain^2), data = toody5)
+summary(fit4) # 12.10
+
 
 
 ###########################################################
 #  Alternative 2
 #############################################################
-#' Detrend ln(Yield), RAIN, and RAIN^2 and 
+#' Detrend Yield, RAIN, and RAIN^2 and 
 #' estimate the detrended model.
 
 #' First, estimating the trends.
-#' That is detrend the variables, log(y), RAIN, and RAIN^2 
+#' That is detrend the variables, y, RAIN, and RAIN^2 
 
-summary(lm(log(y)~t, data = toody5))
+summary(lm(y~t, data = toody5))
 summary(lm(rain~t, data = toody5))
 summary(lm(I(rain^2)~t, data = toody5))
 
@@ -144,7 +148,7 @@ summary(lm(I(rain^2)~t, data = toody5))
 
 #' Now apply OLS using the detrended variables 
 #' Notices that the estimates should be identical with model "fit3" above.
-summary(lm(resid(lm(log(y)~t, data = toody5))~0+resid(lm(rain~t, data = toody5))+resid(lm(rain^2~t, data = toody5))))
+summary(lm(resid(lm(y~t, data = toody5))~0+resid(lm(rain~t, data = toody5))+resid(lm(rain^2~t, data = toody5))))
 
 #' The standard errors from the two different models are not exactly equal. 
 #' The standard error discrepancy arises from the different degrees of freedom used to estimate the error variance. 
