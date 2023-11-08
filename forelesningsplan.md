@@ -72,7 +72,7 @@
 | 17  | 1/11 | [R code for Chapter 9](https://github.com/uit-sok-3020-H22/uit-sok-3020-H22.github.io/blob/main/chapter_9.R){:target='_blank_'}     |
 | 18  | 2/11 |we will finalize Chapter 09 in the first session.  And then will strat chapter 12 in the second session   |
 | 19  | 6/11 | continue looking at chatpter 12 <br /> [R code for Chapter 12](https://github.com/uit-sok-3020-h23/uit-sok-3020-h23.github.io/blob/main/chapter_12.R){:target='_blank_'}   |
-| 20  | 8/11 | After finlizing the PPT, we will mainly go through the R codes from chap-12 |
+| 20  | 8/11 | After finalizing the PPT, we will mainly go through the R codes from chap-12 |
 | 21  | 13/11 |    |
 | 22  | 15/11 |    |
 | 23  | 20/11 |    |
