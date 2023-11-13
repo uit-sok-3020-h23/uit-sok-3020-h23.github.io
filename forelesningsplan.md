@@ -75,7 +75,7 @@
 | 20  | 8/11 | After finalizing the PPT, we will mainly go through the R codes from chap-12 |
 |   | Deadline 24/11 | Do exercises: <br /> <br />  From Chapter 9: 9.16, 9.20 (only a and c) <br /> From Chapter 12: 12.3, and 12.14 <br /> <br /> Submit your answers in Canvas before 16:00 and you can get 25 points to your assignment portfolio.   |
 |21| 13/11 |Continue on Chapter -12.   |
-| 22  | 15/11 | <br /> We will start chap-13.   |
+| 22  | 15/11 | <br /> Summarize chap-09 og chap-12   |
 | 23  | 20/11 |    |
 
 
