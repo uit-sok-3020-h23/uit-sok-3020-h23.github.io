@@ -124,7 +124,7 @@ coeftest(fit_1)
 ###########################
 # Exercise 9.25
 #############################
-# Estimate each models and check if there is 
+# Estimate each model and check if there is 
 # autocorrelation problem. 
 
 model_1 <- dynlm(d(cons) ~ L(d(cons),1) +L(d(y)))
