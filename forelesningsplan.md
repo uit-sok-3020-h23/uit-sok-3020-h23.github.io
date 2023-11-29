@@ -76,7 +76,7 @@
 |   | Deadline 24/11 | Do exercises: <br /> <br />  From Chapter 9: 9.16, 9.20 (only a and c) <br /> From Chapter 12: 12.3, and 12.14 <br /> <br /> Submit your answers in Canvas before 16:00 and you can get 25 points to your assignment portfolio.   |
 |21| 13/11 |Continue on Chapter -12.   |
 | 22  | 15/11 | <br /> Summarize chap-09 og chap-12 <br /> <br />  [Rcodes from the class](https://github.com/uit-sok-3020-h23/uit-sok-3020-h23.github.io/blob/main/Exercise_9_24.R){:target='_blank_'}   |
-| 23  | 20/11 |    |
+| 23  | 20/11 |  [Solution to Assignment 09](https://github.com/uit-sok-3020-h23/uit-sok-3020-h23.github.io/blob/main/Sol_to_Assignment_09.R){:target='_blank_'}   |
 
 
 
